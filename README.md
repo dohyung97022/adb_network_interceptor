@@ -1,4 +1,4 @@
-# chrome_network_interceptor
+# chromeNetworkInterceptor
 Network interception tool for chrome and android device bridge.   
 
 ## What is this?
