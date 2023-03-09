@@ -1,0 +1,31 @@
+{
+  "name": "adb_network_interceptor",
+  "version": "1.0.0",
+  "description": "Network interception tool for shell and android device bridge.",
+  "main": "main.js",
+  "bin": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "pkg": {
+    "assets": [
+      "./node_modules/chrome-remote-interface/**",
+      "./node_modules/minimist/**"
+    ],
+    "outputPath": "executables/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dohyung97022/adb_network_interceptor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dohyung97022/adb_network_interceptor/issues"
+  },
+  "homepage": "https://github.com/dohyung97022/adb_network_interceptor#readme",
+  "dependencies": {
+    "chrome-remote-interface": "^0.32.1",
+    "minimist": "^1.2.8"
+  }
+}
